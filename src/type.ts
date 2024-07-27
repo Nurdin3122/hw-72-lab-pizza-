@@ -16,3 +16,10 @@ export interface DishMutation{
     price:string;
     image:string;
 }
+
+export interface Order {
+    id: string;
+    title: string;
+    price: number;
+    quantity: number;
+}
